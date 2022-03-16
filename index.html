@@ -4,14 +4,60 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Mini Landing</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="app">
-      <div class="text-xl font-black tracking-wide">
-        starter template for mole-web
-      </div>
+      <div>
+        <header class="flex items-center justify-between py-6 w-5/6 mx-auto">
+          <h1 class="font-bold text-gray-700">
+            <span class="text-emerald-500">mini</span>Landing
+          </h1>
 
+          <ul class="inline-flex">
+            <li class="">
+              <a>Services</a>
+            </li>
+            <li class="ml-12">
+              <a>Contact</a>
+            </li>
+          </ul>
+        </header>
+
+        <div class="w-4/5 mx-auto text-center py-32">
+          <h1
+            class="text-5xl font-black tracking-wide text-gray-700 leading-loose"
+          >
+            <span class="text-emerald-500">minimal</span> Landing
+          </h1>
+          <p class="text-xl text-gray-800 leading-relaxed">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+            Molestiae itaque excepturi eligendi dignissimos illum reiciendis aut
+            maxime unde tenetur <br />
+            consequatur maiores, placeat magnam temporibus dolore.
+          </p>
+
+          <div class="inline-flex mt-8 items-center">
+            <button
+              class="py-3 px-12 bg-emerald-500 opacity-80 hover:opacity-100 text-white rounded-lg mx-1 duration-300"
+            >
+              Services
+            </button>
+            <button
+              class="py-3 px-12 bg-gray-500 opacity-80 hover:opacity-100 text-white rounded-lg mx-1 duration-300"
+            >
+              Social Media
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
